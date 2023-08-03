@@ -7,7 +7,7 @@ replace (
 	github.com/urfave/cli => github.com/urfave/cli v1.11.1-0.20151120215642-0302d3914d2a // newer versions of this will break the rpc binding code
 )
 
-replace github.com/rancher/wrangler => github.com/doflamingo721/wrangler v1.26.5-rancher1
+replace github.com/rancher/wrangler => github.com/doflamingo721/wrangler v1.26.5-rancher2
 
 require (
 	github.com/Azure/azure-sdk-for-go v55.7.0+incompatible
@@ -87,7 +87,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/rancher/lasso v0.0.0-20221227210133-6ea88ca2fbcc // indirect
+	github.com/rancher/lasso v0.0.0-20230629200414-8a54b32e6792 // indirect
 	github.com/satori/go.uuid v1.2.1-0.20181016170032-d91630c85102 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
